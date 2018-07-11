@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Time Display</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'ourApp/css/main.css' %}" media="screen" title="no title"  charset="utf-8">
+  </head>
+  <body>
+    <h1>The current time and date:</h1>
+      <!--  time {{now}} -->
+    <div class="line">{{ now }}</div>
+
+  </body>
+</html>
